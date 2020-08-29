@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title> Урок 3 </title>
+	<meta name="discrition"content="привет">
+	<meta name="keywords"content="сайт">
+	<meta name="viewport"content="width=device-width">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+		<script src="http://code.jquery.com/jquery-1.12.4.min.js" 
+	integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" 
+	crossorigin="anonymous"></script>
+	<script>
+  	$(document).ready(function() {
+  		$('.m-menu-link').click(function(event) {
+  			$('.m-menu-link,.m-menu').toggleClass('active');
+  		})
+  	})
+  	</script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<!-- Верхний блок -->
+		<header class="header">
+			<div class="header__backround">
+				<div class="conteiner">
+					<!-- Вверх верхнего блока   -->
+					<div class="header__box">
+						<div class="header__top">
+							<div class="top__menu">
+								<div class="top__image">
+									<div class="top__image_flex">
+										<div class="image"><img src="../img/3.png" alt=""></div>
+										<h1 class="top-title">MISOCIAL</h1>
+									</div>
+								</div>
+								<a class="m-menu-link"href="#" >
+									<div class="m-menu">
+										<li class="close__menu">&times;</li>
+										<ul class="top__selected--active ">
+										<li class="top__item"><a href="#">Home</a></li>
+										<li class="top__item"><a href="">Why MISOCIAL</a></li>
+										<li class="top__item"><a href="">Features</a></li>
+										<li class="top__item"><a href="">Articles</a></li>
+										<div class="top__item_border-2"><a href="#">get started</a></div>
+									</ul>
+									</div>
+									<i class="fa fa-bars"></i>
+								</a>
+								<div class="top__nav visible-lg">
+									<ul class="top__selected ">
+										<li class="top__item"><a href="#">Home</a></li>
+										<li class="top__item"><a href="">Why MISOCIAL</a></li>
+										<li class="top__item"><a href="">Features</a></li>
+										<li class="top__item"><a href="">Articles</a></li>
+										<div class="top__item_border"><a href="#">get started</a></div>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- Центр верхнего блока  -->
+						<div class="header__center">
+							<div class="center__box">
+								<div class="center__top">SOCIAL MARKETING & ANALYTICS</div>
+								<div class="center__center">Pricing Table</div>
+								<div class="center__bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.labore et dolore magna aliqua. Ut  </div>
+							</div>
+						</div>
+						<!-- Низ верхнего блока  -->
+						<div class="header_bottom">
+							<div class="bottom__image">
+								<div class="image__butoom">
+									<a href="" class="image__a">
+										<img src="../img/2.png" alt="">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="content">
+			<div class="content__bacground">
+				<div class="conteiner">
+					<div class="select">
+						<div class="select__header">
+							<div class="select__title">MIsocial</div>
+							<div class="select__subtitle">Select a Plan</div>
+							<div class="select__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</div>
+						</div>
+						<div class="select__list">
+							<div class="column">
+								<div class="column__row">
+									<div class="column__inner">
+										<div class="column__logo"><img src="../img/4.png" alt=""></div>
+										<div class="column__title">personal</div>
+										<div class="column__cost"><span>0</span>/month</div>
+										<div class="column__text">Lorem ipsum dolor sit amet.sed do eiusmod tempor incididunt ut.Labore et dolore magna aliqua.quis nostrud exercitation ullamco laboris.Ea commodo consequat.</div>
+										<div class="column__link"><a href="#">select plan</a></div>
+									</div>
+								</div>
+								<div class="column__row">
+									<div class="column__inner">
+										<div class="column__logo"><img src="../img/5.png" alt=""></div>
+										<div class="column__title">personal</div>
+										<div class="column__cost"><span>29</span>/month</div>
+										<div class="column__text">Lorem ipsum dolor sit amet.sed do eiusmod tempor incididunt ut.Labore et dolore magna aliqua.quis nostrud exercitation ullamco laboris.Ea commodo consequat.</div>
+										<div class="column__link"><a href="#">select plan</a></div>
+									</div>
+								</div>
+								<div class="column__row">
+									<div class="column__inner">
+										<div class="column__logo"><img src="../img/6.png" alt=""></div>
+										<div class="column__title">personal</div>
+										<div class="column__cost"><span>49</span>/month</div>
+										<div class="column__text">Lorem ipsum dolor sit amet.sed do eiusmod tempor incididunt ut.Labore et dolore magna aliqua.quis nostrud exercitation ullamco laboris.Ea commodo consequat.</div>
+										<div class="column__link"><a href="#">select plan</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="section">
+				<div class="section__bacground">
+					<div class="conteiner">
+						<div class="control">
+							<div class="control__text">SOCAL MARKETING & ANALYTICS</div>
+							<div class="control__title">Take control of your data</div>
+							<div class="control_item">
+								<a href="#" class="control_link">get started</a>
+								<a href="#" class="control_link">explore features</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		<footer class="footer">
+			<div class="footer__bacground">
+				<div class="conteiner">
+					<div class="footer__box">
+						<div class="footer__top">
+							<div class="footer__header">
+								<div class="logo-title">
+									<div class="logo"><img src="../img/3.png" alt=""></div>
+									<div class="footer__title">MISOCIAL</div>
+								</div>
+								<div class="nav__menu">
+									<div class="nav__list">
+										<ul class="nav__item visible-lg">
+											<li class="nav__link"><a href="#">Home</a></li>
+											<li class="nav__link"><a href="#">Why MISOCIAL</a></li>
+											<li class="nav__link"><a href="#">Features</a></li>
+											<li class="nav__link"><a href="#">Articles</a></li>
+											<div class="nav__link_border"><a href="#">get started</a></div>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="footer__bottom">
+							<div class="footer-bottom">
+								<div class="footer-bottom__copurignt">© 2017 Mass Impressions & Tranmautritam. Make the right impression.</div>
+								<div class="footer-bottom__link">
+									<div class="footer-bottom__icons">
+										<ul class="icons">
+											<li class="icons__link"><a href="#"><img src="../img/2.png"></a></li>
+											<li class="icons__link"><a href="#"><img src="../img/2.png"></a></li>
+											<li class="icons__link"><a href="#"><img src="../img/2.png"></a></li>
+											<li class="icons__link"><a href="#"><img src="../img/2.png"></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+</body>
+</html>
